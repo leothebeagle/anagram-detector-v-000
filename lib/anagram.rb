@@ -10,6 +10,6 @@ class Anagram
     anagrams.select do |anagram|
       anagram.chars.sort == @word.chars.sort
     end
-    
+
   end
 end
